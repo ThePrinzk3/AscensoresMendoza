@@ -51,6 +51,7 @@ Partial Class FrmStock
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.dtvHistorial = New System.Windows.Forms.DataGridView()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.dtvStock, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -76,10 +77,10 @@ Partial Class FrmStock
         DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dtvStock.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.dtvStock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtvStock.Location = New System.Drawing.Point(30, 31)
+        Me.dtvStock.Location = New System.Drawing.Point(470, 52)
         Me.dtvStock.Name = "dtvStock"
         Me.dtvStock.ReadOnly = True
-        Me.dtvStock.Size = New System.Drawing.Size(599, 317)
+        Me.dtvStock.Size = New System.Drawing.Size(1418, 417)
         Me.dtvStock.TabIndex = 27
         '
         'Label4
@@ -87,7 +88,7 @@ Partial Class FrmStock
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(1037, 536)
+        Me.Label4.Location = New System.Drawing.Point(80, 442)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(169, 22)
         Me.Label4.TabIndex = 24
@@ -108,7 +109,7 @@ Partial Class FrmStock
         '
         Me.txtCantidad.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCantidad.ForeColor = System.Drawing.Color.Black
-        Me.txtCantidad.Location = New System.Drawing.Point(1212, 533)
+        Me.txtCantidad.Location = New System.Drawing.Point(255, 439)
         Me.txtCantidad.Name = "txtCantidad"
         Me.txtCantidad.Size = New System.Drawing.Size(100, 30)
         Me.txtCantidad.TabIndex = 20
@@ -125,7 +126,7 @@ Partial Class FrmStock
         'LogoPictureBox
         '
         Me.LogoPictureBox.Image = CType(resources.GetObject("LogoPictureBox.Image"), System.Drawing.Image)
-        Me.LogoPictureBox.Location = New System.Drawing.Point(1114, 22)
+        Me.LogoPictureBox.Location = New System.Drawing.Point(12, 12)
         Me.LogoPictureBox.Name = "LogoPictureBox"
         Me.LogoPictureBox.Size = New System.Drawing.Size(134, 155)
         Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -137,7 +138,7 @@ Partial Class FrmStock
         Me.btnBuscar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBuscar.Image = Global.ProyectoGestión.My.Resources.Resources._3844432_magnifier_search_zoom_icon1
         Me.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnBuscar.Location = New System.Drawing.Point(1041, 342)
+        Me.btnBuscar.Location = New System.Drawing.Point(84, 226)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(100, 36)
         Me.btnBuscar.TabIndex = 31
@@ -150,7 +151,7 @@ Partial Class FrmStock
         Me.btnRegistrarSalida.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegistrarSalida.Image = Global.ProyectoGestión.My.Resources.Resources._8664938_trash_can_delete_remove_icon4
         Me.btnRegistrarSalida.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnRegistrarSalida.Location = New System.Drawing.Point(1095, 622)
+        Me.btnRegistrarSalida.Location = New System.Drawing.Point(138, 528)
         Me.btnRegistrarSalida.Name = "btnRegistrarSalida"
         Me.btnRegistrarSalida.Size = New System.Drawing.Size(199, 36)
         Me.btnRegistrarSalida.TabIndex = 29
@@ -163,7 +164,7 @@ Partial Class FrmStock
         Me.btnLimpiar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLimpiar.Image = Global.ProyectoGestión.My.Resources.Resources._8665134_broom_clean_cleaning_icon
         Me.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnLimpiar.Location = New System.Drawing.Point(1204, 342)
+        Me.btnLimpiar.Location = New System.Drawing.Point(247, 226)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(108, 36)
         Me.btnLimpiar.TabIndex = 28
@@ -176,7 +177,7 @@ Partial Class FrmStock
         Me.btnRegistrarEntrada.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegistrarEntrada.Image = Global.ProyectoGestión.My.Resources.Resources._8201360_add_plus_new_ui_icon__2_1
         Me.btnRegistrarEntrada.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnRegistrarEntrada.Location = New System.Drawing.Point(1095, 580)
+        Me.btnRegistrarEntrada.Location = New System.Drawing.Point(138, 486)
         Me.btnRegistrarEntrada.Name = "btnRegistrarEntrada"
         Me.btnRegistrarEntrada.Size = New System.Drawing.Size(199, 36)
         Me.btnRegistrarEntrada.TabIndex = 17
@@ -210,7 +211,7 @@ Partial Class FrmStock
         Me.cboCategoria.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboCategoria.ForeColor = System.Drawing.Color.Black
         Me.cboCategoria.FormattingEnabled = True
-        Me.cboCategoria.Location = New System.Drawing.Point(1152, 306)
+        Me.cboCategoria.Location = New System.Drawing.Point(195, 190)
         Me.cboCategoria.Name = "cboCategoria"
         Me.cboCategoria.Size = New System.Drawing.Size(162, 30)
         Me.cboCategoria.TabIndex = 36
@@ -220,7 +221,7 @@ Partial Class FrmStock
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(1047, 306)
+        Me.Label5.Location = New System.Drawing.Point(90, 190)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(99, 22)
         Me.Label5.TabIndex = 35
@@ -234,7 +235,7 @@ Partial Class FrmStock
         Me.GroupBox1.Controls.Add(Me.txtCodigo)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.txtNombre)
-        Me.GroupBox1.Location = New System.Drawing.Point(1041, 384)
+        Me.GroupBox1.Location = New System.Drawing.Point(84, 285)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(273, 131)
         Me.GroupBox1.TabIndex = 37
@@ -277,10 +278,10 @@ Partial Class FrmStock
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dtvAlerta.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dtvAlerta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtvAlerta.Location = New System.Drawing.Point(650, 76)
+        Me.dtvAlerta.Location = New System.Drawing.Point(45, 625)
         Me.dtvAlerta.Name = "dtvAlerta"
         Me.dtvAlerta.ReadOnly = True
-        Me.dtvAlerta.Size = New System.Drawing.Size(366, 272)
+        Me.dtvAlerta.Size = New System.Drawing.Size(372, 328)
         Me.dtvAlerta.TabIndex = 38
         '
         'Label3
@@ -288,7 +289,7 @@ Partial Class FrmStock
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(715, 31)
+        Me.Label3.Location = New System.Drawing.Point(100, 580)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(258, 32)
         Me.Label3.TabIndex = 39
@@ -299,7 +300,7 @@ Partial Class FrmStock
         Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.Label6)
-        Me.GroupBox2.Location = New System.Drawing.Point(1079, 183)
+        Me.GroupBox2.Location = New System.Drawing.Point(214, 32)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(203, 115)
         Me.GroupBox2.TabIndex = 38
@@ -343,7 +344,7 @@ Partial Class FrmStock
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(24, 360)
+        Me.Label9.Location = New System.Drawing.Point(464, 485)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(328, 32)
         Me.Label9.TabIndex = 40
@@ -366,18 +367,30 @@ Partial Class FrmStock
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.dtvHistorial.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.dtvHistorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtvHistorial.Location = New System.Drawing.Point(30, 398)
+        Me.dtvHistorial.Location = New System.Drawing.Point(470, 524)
         Me.dtvHistorial.Name = "dtvHistorial"
         Me.dtvHistorial.ReadOnly = True
-        Me.dtvHistorial.Size = New System.Drawing.Size(986, 262)
+        Me.dtvHistorial.Size = New System.Drawing.Size(1418, 429)
         Me.dtvHistorial.TabIndex = 41
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.White
+        Me.Label11.Location = New System.Drawing.Point(464, 12)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(274, 32)
+        Me.Label11.TabIndex = 42
+        Me.Label11.Text = "Productos y su stock:"
         '
         'FrmStock
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1340, 691)
+        Me.ClientSize = New System.Drawing.Size(1900, 965)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.dtvHistorial)
         Me.Controls.Add(Me.btnBuscar)
         Me.Controls.Add(Me.Label9)
@@ -435,4 +448,5 @@ Partial Class FrmStock
     Friend WithEvents dtvHistorial As DataGridView
     Friend WithEvents Label10 As Label
     Friend WithEvents txtTrabajador As TextBox
+    Friend WithEvents Label11 As Label
 End Class

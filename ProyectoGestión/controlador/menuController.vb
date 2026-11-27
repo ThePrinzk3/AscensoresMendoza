@@ -70,10 +70,6 @@ Public Class MenuController
         AbrirFormularioMDI(Of FrmProyecto)(parentForm)
     End Sub
 
-    Public Shared Sub AbrirVistas(parentForm As Form)
-        AbrirFormularioMDI(Of FrmVistas)(parentForm)
-    End Sub
-
     ' --------------------------------------------------
     ' Volver al login: limpiar caché y mostrar FrmLogin
     ' --------------------------------------------------

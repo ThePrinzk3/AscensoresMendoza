@@ -38,9 +38,10 @@ Partial Class Menu
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(61, Byte), Integer))
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InicioToolStripMenuItem, Me.ProductoToolStripMenuItem, Me.StockToolStripMenuItem, Me.ReporteToolStripMenuItem, Me.ProyectoToolStripMenuItem})
+        Me.MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1344, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1904, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -57,7 +58,7 @@ Partial Class Menu
         '
         Me.SalirToolStripMenuItem.Image = Global.ProyectoGestión.My.Resources.Resources._1564506_close_exit_logout_power_icon__1_1
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.SalirToolStripMenuItem.Text = "Cerrar Sesión"
         '
         'ProductoToolStripMenuItem
@@ -98,9 +99,9 @@ Partial Class Menu
         Me.UsernameLabel.ForeColor = System.Drawing.Color.White
         Me.UsernameLabel.Location = New System.Drawing.Point(378, 1)
         Me.UsernameLabel.Name = "UsernameLabel"
-        Me.UsernameLabel.Size = New System.Drawing.Size(1127, 23)
+        Me.UsernameLabel.Size = New System.Drawing.Size(966, 23)
         Me.UsernameLabel.TabIndex = 2
-        Me.UsernameLabel.Text = "Elevadores Montacarga E.I.R.L. 2025 - El Agustino"
+        Me.UsernameLabel.Text = "Ascensores de Carga Mendoza E.I.R.L. 2025 - El Agustino"
         Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Menu
@@ -108,7 +109,7 @@ Partial Class Menu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1344, 721)
+        Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -116,10 +117,9 @@ Partial Class Menu
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
-        Me.MinimizeBox = False
         Me.Name = "Menu"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Menú - Elevadores Montacarga"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
+        Me.Text = "Menú - Ascensores de Carga Mendoza E.I.R.L."
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

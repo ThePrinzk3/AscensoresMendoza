@@ -29,6 +29,8 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -67,37 +69,53 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
-      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.7.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>
-    <Reference Include="ClosedXML, Version=0.105.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
-      <HintPath>..\packages\ClosedXML.0.105.0\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    <Reference Include="ClosedXML, Version=0.96.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.96.0\lib\net46\ClosedXML.dll</HintPath>
     </Reference>
     <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
       <HintPath>..\packages\ClosedXML.Parser.2.0.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
     </Reference>
-    <Reference Include="DocumentFormat.OpenXml, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
-      <HintPath>..\packages\DocumentFormat.OpenXml.3.1.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.16.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.16.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
-    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
-      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.1.1\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.5.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.5.1\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus, Version=5.8.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPPlus.5.8.0\lib\net45\EPPlus.dll</HintPath>
+    <Reference Include="EPPlus, Version=8.7.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.8.7.2\lib\net462\EPPlus.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus.Interfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPPlus.Interfaces.8.0.0\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    <Reference Include="EPPlus.Interfaces, Version=8.6.2.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.8.6.2\lib\net462\EPPlus.Interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    <Reference Include="ExcelNumberFormat, Version=1.2.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.2.0\lib\net20\ExcelNumberFormat.dll</HintPath>
     </Reference>
-    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
-      <HintPath>..\packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    <Reference Include="Irony, Version=1.0.11.0, Culture=neutral, PublicKeyToken=ca48ace7223ead47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Irony.NetCore.1.0.11\lib\net461\Irony.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    <Reference Include="itextsharp, Version=5.5.13.6, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.6\lib\net461\itextsharp.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.1\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.Cryptography, Version=10.0.0.14, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Cryptography.10.0.14\lib\net462\Microsoft.Bcl.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.6.0.0\lib\net462\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.4.0.1\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.4314.35, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.4314.35\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.4314.35, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.4314.35\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.4314.35, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.4314.35\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -106,12 +124,9 @@
     <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c77e27b81f4d0187, processorArchitecture=MSIL">
       <HintPath>..\packages\RBush.Signed.4.0.0\lib\net47\RBush.dll</HintPath>
     </Reference>
-    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
-      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
@@ -122,22 +137,29 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    <Reference Include="System.Formats.Asn1, Version=10.0.0.14, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Formats.Asn1.10.0.14\lib\net462\System.Formats.Asn1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.6.0.0\lib\net461\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Messaging" />
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Security" />
-    <Reference Include="System.Security.Cryptography.Xml, Version=8.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Security.Cryptography.Xml.8.0.2\lib\net462\System.Security.Cryptography.Xml.dll</HintPath>
+    <Reference Include="System.Security.Cryptography.Xml, Version=10.0.0.14, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.10.0.14\lib\net462\System.Security.Cryptography.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.ValueTuple" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Windows.Forms.DataVisualization.Design" />
@@ -147,6 +169,9 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
     <Reference Include="WindowsBase" />
+    <Reference Include="XLParser, Version=1.5.2.0, Culture=neutral, PublicKeyToken=63397e1e46bb91b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\XLParser.1.5.2\lib\net461\XLParser.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -168,20 +193,13 @@
     <Compile Include="controlador\ProyectoController.vb" />
     <Compile Include="controlador\reporteController.vb" />
     <Compile Include="controlador\stockController.vb" />
-    <Compile Include="controlador\VistasController.vb" />
-    <Compile Include="modelo\CategoriaStock.vb" />
     <Compile Include="modelo\Conexion.vb" />
     <Compile Include="modelo\producto.vb" />
-    <Compile Include="modelo\PronosticoModel.vb" />
     <Compile Include="modelo\Proyecto.vb" />
     <Compile Include="modelo\ProyectoAdicional.vb" />
-    <Compile Include="modelo\ProyectoModel.vb" />
     <Compile Include="modelo\reporte.vb" />
-    <Compile Include="modelo\ResumenGeneralModel.vb" />
     <Compile Include="modelo\stock.vb" />
-    <Compile Include="modelo\StockCriticoModel.vb" />
     <Compile Include="modelo\users.vb" />
-    <Compile Include="modelo\ValorMensual.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -275,25 +293,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imagenes\134221_refresh_reload_repeat_update_arrow_icon.png" />
-    <None Include="imagenes\backup.png" />
     <None Include="imagenes\ingeniero.png" />
     <Content Include="logo_elevadoresMontacarga.ico" />
     <None Include="imagenes\1564506_close_exit_logout_power_icon %281%29.png" />
-    <Content Include="imagenes\1564506_close_exit_logout_power_icon.png" />
     <Content Include="imagenes\2931174_clipboard_copy_paste_analysis_report_icon.png" />
     <Content Include="imagenes\3018569_alteration_bag_data_product_settings_icon.png" />
     <Content Include="imagenes\3643769_building_home_house_main_menu_icon.png" />
     <Content Include="imagenes\3844432_magnifier_search_zoom_icon.png" />
     <Content Include="imagenes\7217723_forex_trade_chart_stock_diagram_icon.png" />
-    <None Include="imagenes\8201360_add_plus_new_ui_icon %281%29.png" />
     <None Include="imagenes\8201360_add_plus_new_ui_icon %282%29.png" />
-    <Content Include="imagenes\8201360_add_plus_new_ui_icon.png" />
     <Content Include="imagenes\8664938_trash_can_delete_remove_icon.png" />
     <Content Include="imagenes\8664943_file_pdf_document_icon.png" />
     <Content Include="imagenes\8665134_broom_clean_cleaning_icon.png" />
     <Content Include="imagenes\9023622_microsoft_excel_logo_fill_icon.png" />
-    <Content Include="imagenes\9104136_logout_sign out_exit_dooe_out_icon.png" />
-    <Content Include="imagenes\9104240_entrance_enter_sign in_login_door_icon.png" />
     <None Include="imagenes\logo_elevadoresMontacarga.jpeg" />
   </ItemGroup>
   <ItemGroup>
@@ -312,4 +324,15 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.4314.35\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.4314.35\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.4314.35\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.4314.35\build\Microsoft.Web.WebView2.targets'))" />
+    <Error Condition="!Exists('..\packages\SixLabors.Fonts.3.2.0\build\SixLabors.Fonts.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SixLabors.Fonts.3.2.0\build\SixLabors.Fonts.targets'))" />
+    <Error Condition="!Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets'))" />
+  </Target>
+  <Import Project="..\packages\SixLabors.Fonts.3.2.0\build\SixLabors.Fonts.targets" Condition="Exists('..\packages\SixLabors.Fonts.3.2.0\build\SixLabors.Fonts.targets')" />
+  <Import Project="..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
 </Project>

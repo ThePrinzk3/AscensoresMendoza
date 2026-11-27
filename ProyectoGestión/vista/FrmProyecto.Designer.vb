@@ -31,6 +31,7 @@ Partial Class FrmProyecto
         Me.btnActualizarProyecto = New System.Windows.Forms.Button()
         Me.btnLimpiarProyecto = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnAjustarStockProyecto = New System.Windows.Forms.Button()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.txtCantidadAdicional = New System.Windows.Forms.TextBox()
         Me.txtCostoAdicional = New System.Windows.Forms.TextBox()
@@ -62,20 +63,21 @@ Partial Class FrmProyecto
         Me.Label11 = New System.Windows.Forms.Label()
         Me.btnPDFProyecto = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.btnAjustarStockProyecto = New System.Windows.Forms.Button()
+        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         CType(Me.dtvProyecto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dtvAdicional, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'dtvProyecto
         '
         Me.dtvProyecto.BackgroundColor = System.Drawing.Color.White
         Me.dtvProyecto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtvProyecto.Location = New System.Drawing.Point(29, 62)
+        Me.dtvProyecto.Location = New System.Drawing.Point(1379, 45)
         Me.dtvProyecto.Name = "dtvProyecto"
-        Me.dtvProyecto.Size = New System.Drawing.Size(395, 598)
+        Me.dtvProyecto.Size = New System.Drawing.Size(504, 899)
         Me.dtvProyecto.TabIndex = 0
         '
         'Label2
@@ -174,12 +176,26 @@ Partial Class FrmProyecto
         Me.GroupBox1.Controls.Add(Me.txtCodigoAdicional)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(523, 176)
+        Me.GroupBox1.Location = New System.Drawing.Point(101, 195)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(795, 184)
         Me.GroupBox1.TabIndex = 19
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Productos adicionales"
+        '
+        'btnAjustarStockProyecto
+        '
+        Me.btnAjustarStockProyecto.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAjustarStockProyecto.ForeColor = System.Drawing.Color.Black
+        Me.btnAjustarStockProyecto.Image = CType(resources.GetObject("btnAjustarStockProyecto.Image"), System.Drawing.Image)
+        Me.btnAjustarStockProyecto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnAjustarStockProyecto.Location = New System.Drawing.Point(641, 126)
+        Me.btnAjustarStockProyecto.Name = "btnAjustarStockProyecto"
+        Me.btnAjustarStockProyecto.Size = New System.Drawing.Size(115, 36)
+        Me.btnAjustarStockProyecto.TabIndex = 34
+        Me.btnAjustarStockProyecto.Text = "Corregir"
+        Me.btnAjustarStockProyecto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAjustarStockProyecto.UseVisualStyleBackColor = True
         '
         'Label14
         '
@@ -414,7 +430,7 @@ Partial Class FrmProyecto
         Me.GroupBox2.Controls.Add(Me.btnEliminarProyecto)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.GroupBox2.Location = New System.Drawing.Point(453, 26)
+        Me.GroupBox2.Location = New System.Drawing.Point(176, 22)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(865, 133)
         Me.GroupBox2.TabIndex = 28
@@ -459,9 +475,9 @@ Partial Class FrmProyecto
         '
         Me.dtvAdicional.BackgroundColor = System.Drawing.Color.White
         Me.dtvAdicional.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtvAdicional.Location = New System.Drawing.Point(453, 398)
+        Me.dtvAdicional.Location = New System.Drawing.Point(31, 434)
         Me.dtvAdicional.Name = "dtvAdicional"
-        Me.dtvAdicional.Size = New System.Drawing.Size(865, 216)
+        Me.dtvAdicional.Size = New System.Drawing.Size(1288, 444)
         Me.dtvAdicional.TabIndex = 29
         '
         'Label9
@@ -469,7 +485,7 @@ Partial Class FrmProyecto
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(23, 26)
+        Me.Label9.Location = New System.Drawing.Point(1373, 9)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(142, 32)
         Me.Label9.TabIndex = 41
@@ -480,7 +496,7 @@ Partial Class FrmProyecto
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(447, 363)
+        Me.Label6.Location = New System.Drawing.Point(29, 399)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(305, 32)
         Me.Label6.TabIndex = 42
@@ -491,7 +507,7 @@ Partial Class FrmProyecto
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(447, 628)
+        Me.Label10.Location = New System.Drawing.Point(39, 895)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(152, 32)
         Me.Label10.TabIndex = 43
@@ -502,7 +518,7 @@ Partial Class FrmProyecto
         Me.txtValorProyecto.Enabled = False
         Me.txtValorProyecto.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtValorProyecto.ForeColor = System.Drawing.Color.Black
-        Me.txtValorProyecto.Location = New System.Drawing.Point(605, 630)
+        Me.txtValorProyecto.Location = New System.Drawing.Point(197, 897)
         Me.txtValorProyecto.Name = "txtValorProyecto"
         Me.txtValorProyecto.Size = New System.Drawing.Size(137, 30)
         Me.txtValorProyecto.TabIndex = 44
@@ -512,7 +528,7 @@ Partial Class FrmProyecto
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(892, 636)
+        Me.Label11.Location = New System.Drawing.Point(484, 903)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(0, 22)
         Me.Label11.TabIndex = 47
@@ -522,7 +538,7 @@ Partial Class FrmProyecto
         Me.btnPDFProyecto.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPDFProyecto.Image = Global.ProyectoGestión.My.Resources.Resources._8664943_file_pdf_document_icon
         Me.btnPDFProyecto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnPDFProyecto.Location = New System.Drawing.Point(1248, 631)
+        Me.btnPDFProyecto.Location = New System.Drawing.Point(1249, 895)
         Me.btnPDFProyecto.Name = "btnPDFProyecto"
         Me.btnPDFProyecto.Size = New System.Drawing.Size(70, 30)
         Me.btnPDFProyecto.TabIndex = 46
@@ -535,32 +551,29 @@ Partial Class FrmProyecto
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Cambria", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(770, 628)
+        Me.Label12.Location = New System.Drawing.Point(362, 895)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(101, 32)
         Me.Label12.TabIndex = 48
         Me.Label12.Text = "Actual:"
         '
-        'btnAjustarStockProyecto
+        'LogoPictureBox
         '
-        Me.btnAjustarStockProyecto.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAjustarStockProyecto.ForeColor = System.Drawing.Color.Black
-        Me.btnAjustarStockProyecto.Image = CType(resources.GetObject("btnAjustarStockProyecto.Image"), System.Drawing.Image)
-        Me.btnAjustarStockProyecto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnAjustarStockProyecto.Location = New System.Drawing.Point(641, 126)
-        Me.btnAjustarStockProyecto.Name = "btnAjustarStockProyecto"
-        Me.btnAjustarStockProyecto.Size = New System.Drawing.Size(115, 36)
-        Me.btnAjustarStockProyecto.TabIndex = 34
-        Me.btnAjustarStockProyecto.Text = "Corregir"
-        Me.btnAjustarStockProyecto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAjustarStockProyecto.UseVisualStyleBackColor = True
+        Me.LogoPictureBox.Image = CType(resources.GetObject("LogoPictureBox.Image"), System.Drawing.Image)
+        Me.LogoPictureBox.Location = New System.Drawing.Point(12, 12)
+        Me.LogoPictureBox.Name = "LogoPictureBox"
+        Me.LogoPictureBox.Size = New System.Drawing.Size(134, 155)
+        Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.LogoPictureBox.TabIndex = 49
+        Me.LogoPictureBox.TabStop = False
         '
         'FrmProyecto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1340, 691)
+        Me.ClientSize = New System.Drawing.Size(1900, 965)
+        Me.Controls.Add(Me.LogoPictureBox)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.btnPDFProyecto)
@@ -581,6 +594,7 @@ Partial Class FrmProyecto
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         CType(Me.dtvAdicional, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -640,4 +654,5 @@ Partial Class FrmProyecto
     Friend WithEvents Label14 As Label
     Friend WithEvents txtCantidadAdicional As TextBox
     Friend WithEvents btnAjustarStockProyecto As Button
+    Friend WithEvents LogoPictureBox As PictureBox
 End Class

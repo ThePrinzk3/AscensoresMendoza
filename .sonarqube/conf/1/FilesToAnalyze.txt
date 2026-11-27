@@ -1,0 +1,17 @@
+﻿C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\Adaptador.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\BaseDatos.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\Datos.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\IntegracionTests.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\LoginTests.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\ProductoTests.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\ProyectoTests.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\ReporteTests.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\StockTests.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\My Project\AssemblyInfo.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\packages\MSTest.TestAdapter.4.5.2\buildTransitive\_localization\es\MSTest.TestAdapter.resources.dll
+C:\Users\ThePrinz\source\repos\ProyectoGestión\packages\MSTest.TestAdapter.4.5.2\buildTransitive\_localization\es\MSTestAdapter.PlatformServices.resources.dll
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\My Project\Resources.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\App.config
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\My Project\Application.myapp
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\My Project\Settings.settings
+C:\Users\ThePrinz\source\repos\ProyectoGestión\MiProyecto.Tests\packages.config

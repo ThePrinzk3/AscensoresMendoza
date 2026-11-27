@@ -141,7 +141,7 @@ Partial Class FrmLogin
         Me.Name = "FrmLogin"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Elevadores Montacarga E.I.R.L."
+        Me.Text = "Ascensores de Carga Mendoza E.I.R.L."
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

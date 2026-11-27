@@ -23,7 +23,7 @@ Partial Class FrmProducto
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmProducto))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.txtCodigo = New System.Windows.Forms.TextBox()
         Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.txtCosto = New System.Windows.Forms.TextBox()
@@ -49,7 +49,6 @@ Partial Class FrmProducto
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnRegistrar = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.dtvProducto = New System.Windows.Forms.DataGridView()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -60,7 +59,7 @@ Partial Class FrmProducto
         '
         Me.txtCodigo.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCodigo.ForeColor = System.Drawing.Color.Black
-        Me.txtCodigo.Location = New System.Drawing.Point(422, 14)
+        Me.txtCodigo.Location = New System.Drawing.Point(427, 190)
         Me.txtCodigo.Name = "txtCodigo"
         Me.txtCodigo.Size = New System.Drawing.Size(84, 30)
         Me.txtCodigo.TabIndex = 0
@@ -69,7 +68,7 @@ Partial Class FrmProducto
         '
         Me.txtNombre.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNombre.ForeColor = System.Drawing.Color.Black
-        Me.txtNombre.Location = New System.Drawing.Point(411, 26)
+        Me.txtNombre.Location = New System.Drawing.Point(118, 190)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(205, 30)
         Me.txtNombre.TabIndex = 2
@@ -78,7 +77,7 @@ Partial Class FrmProducto
         '
         Me.txtCosto.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCosto.ForeColor = System.Drawing.Color.Black
-        Me.txtCosto.Location = New System.Drawing.Point(724, 76)
+        Me.txtCosto.Location = New System.Drawing.Point(94, 277)
         Me.txtCosto.Name = "txtCosto"
         Me.txtCosto.Size = New System.Drawing.Size(69, 30)
         Me.txtCosto.TabIndex = 4
@@ -88,7 +87,7 @@ Partial Class FrmProducto
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(341, 17)
+        Me.Label1.Location = New System.Drawing.Point(346, 193)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(75, 22)
         Me.Label1.TabIndex = 5
@@ -99,7 +98,7 @@ Partial Class FrmProducto
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(319, 29)
+        Me.Label2.Location = New System.Drawing.Point(24, 193)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(86, 22)
         Me.Label2.TabIndex = 6
@@ -110,7 +109,7 @@ Partial Class FrmProducto
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(654, 79)
+        Me.Label4.Location = New System.Drawing.Point(24, 280)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(64, 22)
         Me.Label4.TabIndex = 8
@@ -121,7 +120,7 @@ Partial Class FrmProducto
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(31, 30)
+        Me.Label5.Location = New System.Drawing.Point(224, 74)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(99, 22)
         Me.Label5.TabIndex = 9
@@ -132,7 +131,7 @@ Partial Class FrmProducto
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(31, 79)
+        Me.Label3.Location = New System.Drawing.Point(24, 238)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(119, 22)
         Me.Label3.TabIndex = 7
@@ -142,9 +141,9 @@ Partial Class FrmProducto
         '
         Me.txtDescripcion.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDescripcion.ForeColor = System.Drawing.Color.Black
-        Me.txtDescripcion.Location = New System.Drawing.Point(156, 76)
+        Me.txtDescripcion.Location = New System.Drawing.Point(149, 235)
         Me.txtDescripcion.Name = "txtDescripcion"
-        Me.txtDescripcion.Size = New System.Drawing.Size(460, 30)
+        Me.txtDescripcion.Size = New System.Drawing.Size(440, 30)
         Me.txtDescripcion.TabIndex = 3
         '
         'cboCategoria
@@ -153,7 +152,7 @@ Partial Class FrmProducto
         Me.cboCategoria.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboCategoria.ForeColor = System.Drawing.Color.Black
         Me.cboCategoria.FormattingEnabled = True
-        Me.cboCategoria.Location = New System.Drawing.Point(136, 26)
+        Me.cboCategoria.Location = New System.Drawing.Point(329, 70)
         Me.cboCategoria.Name = "cboCategoria"
         Me.cboCategoria.Size = New System.Drawing.Size(162, 30)
         Me.cboCategoria.TabIndex = 10
@@ -163,7 +162,7 @@ Partial Class FrmProducto
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(31, 127)
+        Me.Label6.Location = New System.Drawing.Point(15, 16)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(58, 22)
         Me.Label6.TabIndex = 34
@@ -173,7 +172,7 @@ Partial Class FrmProducto
         '
         Me.txtTalla.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTalla.ForeColor = System.Drawing.Color.Black
-        Me.txtTalla.Location = New System.Drawing.Point(98, 124)
+        Me.txtTalla.Location = New System.Drawing.Point(82, 13)
         Me.txtTalla.Name = "txtTalla"
         Me.txtTalla.Size = New System.Drawing.Size(57, 30)
         Me.txtTalla.TabIndex = 35
@@ -183,7 +182,7 @@ Partial Class FrmProducto
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(188, 127)
+        Me.Label7.Location = New System.Drawing.Point(15, 57)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(69, 22)
         Me.Label7.TabIndex = 36
@@ -193,7 +192,7 @@ Partial Class FrmProducto
         '
         Me.txtMarca.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMarca.ForeColor = System.Drawing.Color.Black
-        Me.txtMarca.Location = New System.Drawing.Point(263, 124)
+        Me.txtMarca.Location = New System.Drawing.Point(90, 54)
         Me.txtMarca.Name = "txtMarca"
         Me.txtMarca.Size = New System.Drawing.Size(119, 30)
         Me.txtMarca.TabIndex = 37
@@ -203,7 +202,7 @@ Partial Class FrmProducto
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(388, 127)
+        Me.Label8.Location = New System.Drawing.Point(215, 57)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(80, 22)
         Me.Label8.TabIndex = 38
@@ -213,7 +212,7 @@ Partial Class FrmProducto
         '
         Me.txtModelo.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtModelo.ForeColor = System.Drawing.Color.Black
-        Me.txtModelo.Location = New System.Drawing.Point(474, 124)
+        Me.txtModelo.Location = New System.Drawing.Point(301, 54)
         Me.txtModelo.Name = "txtModelo"
         Me.txtModelo.Size = New System.Drawing.Size(119, 30)
         Me.txtModelo.TabIndex = 39
@@ -223,7 +222,7 @@ Partial Class FrmProducto
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(639, 127)
+        Me.Label9.Location = New System.Drawing.Point(16, 100)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(79, 22)
         Me.Label9.TabIndex = 40
@@ -233,7 +232,7 @@ Partial Class FrmProducto
         '
         Me.txtMedida.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMedida.ForeColor = System.Drawing.Color.Black
-        Me.txtMedida.Location = New System.Drawing.Point(724, 124)
+        Me.txtMedida.Location = New System.Drawing.Point(101, 97)
         Me.txtMedida.Name = "txtMedida"
         Me.txtMedida.Size = New System.Drawing.Size(69, 30)
         Me.txtMedida.TabIndex = 41
@@ -241,7 +240,7 @@ Partial Class FrmProducto
         'LogoPictureBox
         '
         Me.LogoPictureBox.Image = CType(resources.GetObject("LogoPictureBox.Image"), System.Drawing.Image)
-        Me.LogoPictureBox.Location = New System.Drawing.Point(1172, 12)
+        Me.LogoPictureBox.Location = New System.Drawing.Point(12, 12)
         Me.LogoPictureBox.Name = "LogoPictureBox"
         Me.LogoPictureBox.Size = New System.Drawing.Size(134, 155)
         Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -253,7 +252,7 @@ Partial Class FrmProducto
         Me.btnBuscar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBuscar.Image = CType(resources.GetObject("btnBuscar.Image"), System.Drawing.Image)
         Me.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnBuscar.Location = New System.Drawing.Point(541, 11)
+        Me.btnBuscar.Location = New System.Drawing.Point(322, 498)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(99, 36)
         Me.btnBuscar.TabIndex = 15
@@ -266,7 +265,7 @@ Partial Class FrmProducto
         Me.btnEliminar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEliminar.Image = CType(resources.GetObject("btnEliminar.Image"), System.Drawing.Image)
         Me.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnEliminar.Location = New System.Drawing.Point(646, 10)
+        Me.btnEliminar.Location = New System.Drawing.Point(430, 498)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Size = New System.Drawing.Size(115, 36)
         Me.btnEliminar.TabIndex = 14
@@ -279,7 +278,7 @@ Partial Class FrmProducto
         Me.btnActualizar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnActualizar.Image = CType(resources.GetObject("btnActualizar.Image"), System.Drawing.Image)
         Me.btnActualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnActualizar.Location = New System.Drawing.Point(827, 120)
+        Me.btnActualizar.Location = New System.Drawing.Point(186, 498)
         Me.btnActualizar.Name = "btnActualizar"
         Me.btnActualizar.Size = New System.Drawing.Size(130, 36)
         Me.btnActualizar.TabIndex = 13
@@ -292,7 +291,7 @@ Partial Class FrmProducto
         Me.btnLimpiar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLimpiar.Image = CType(resources.GetObject("btnLimpiar.Image"), System.Drawing.Image)
         Me.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnLimpiar.Location = New System.Drawing.Point(963, 95)
+        Me.btnLimpiar.Location = New System.Drawing.Point(186, 273)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(111, 36)
         Me.btnLimpiar.TabIndex = 12
@@ -305,7 +304,7 @@ Partial Class FrmProducto
         Me.btnRegistrar.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegistrar.Image = Global.ProyectoGestión.My.Resources.Resources._8201360_add_plus_new_ui_icon__2_1
         Me.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnRegistrar.Location = New System.Drawing.Point(827, 72)
+        Me.btnRegistrar.Location = New System.Drawing.Point(47, 498)
         Me.btnRegistrar.Name = "btnRegistrar"
         Me.btnRegistrar.Size = New System.Drawing.Size(130, 36)
         Me.btnRegistrar.TabIndex = 1
@@ -315,23 +314,19 @@ Partial Class FrmProducto
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.btnEliminar)
-        Me.GroupBox1.Controls.Add(Me.btnBuscar)
-        Me.GroupBox1.Controls.Add(Me.txtCodigo)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(313, 12)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.txtTalla)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.txtMarca)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.txtMedida)
+        Me.GroupBox1.Controls.Add(Me.txtModelo)
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Location = New System.Drawing.Point(79, 328)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(771, 54)
+        Me.GroupBox1.Size = New System.Drawing.Size(432, 136)
         Me.GroupBox1.TabIndex = 42
         Me.GroupBox1.TabStop = False
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Location = New System.Drawing.Point(25, 113)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(785, 46)
-        Me.GroupBox2.TabIndex = 43
-        Me.GroupBox2.TabStop = False
         '
         'dtvProducto
         '
@@ -341,19 +336,19 @@ Partial Class FrmProducto
         Me.dtvProducto.AllowUserToResizeRows = False
         Me.dtvProducto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dtvProducto.BackgroundColor = System.Drawing.Color.White
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dtvProducto.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Cambria", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dtvProducto.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dtvProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtvProducto.Location = New System.Drawing.Point(25, 185)
+        Me.dtvProducto.Location = New System.Drawing.Point(607, 12)
         Me.dtvProducto.Name = "dtvProducto"
         Me.dtvProducto.ReadOnly = True
-        Me.dtvProducto.Size = New System.Drawing.Size(1281, 484)
+        Me.dtvProducto.Size = New System.Drawing.Size(1281, 941)
         Me.dtvProducto.TabIndex = 11
         '
         'FrmProducto
@@ -361,16 +356,12 @@ Partial Class FrmProducto
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(61, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1340, 691)
+        Me.ClientSize = New System.Drawing.Size(1900, 965)
+        Me.Controls.Add(Me.txtCodigo)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.dtvProducto)
-        Me.Controls.Add(Me.txtMedida)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.txtModelo)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.txtMarca)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.txtTalla)
-        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.btnBuscar)
         Me.Controls.Add(Me.LogoPictureBox)
         Me.Controls.Add(Me.btnActualizar)
         Me.Controls.Add(Me.btnLimpiar)
@@ -384,7 +375,6 @@ Partial Class FrmProducto
         Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.btnRegistrar)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.GroupBox2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FrmProducto"
         Me.Text = "FrmProductoRegistrar"
@@ -422,6 +412,5 @@ Partial Class FrmProducto
     Friend WithEvents Label9 As Label
     Friend WithEvents txtMedida As TextBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents dtvProducto As DataGridView
 End Class

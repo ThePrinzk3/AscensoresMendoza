@@ -1,0 +1,56 @@
+﻿C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\controlador\loginController.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\controlador\menuController.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\controlador\productoController.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\controlador\ProyectoController.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\controlador\reporteController.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\controlador\stockController.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\Conexion.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\producto.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\Proyecto.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\ProyectoAdicional.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\reporte.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\stock.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\modelo\users.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmProyecto.Designer.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmProyecto.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmProducto.Designer.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmProducto.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmReporte.Designer.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmReporte.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmStock.Designer.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmStock.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\Menu.Designer.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\Menu.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\My Project\AssemblyInfo.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmLogin.Designer.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmLogin.vb
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\134221_refresh_reload_repeat_update_arrow_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\logo_elevadoresMontacarga.ico
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\2931174_clipboard_copy_paste_analysis_report_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\3018569_alteration_bag_data_product_settings_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\3643769_building_home_house_main_menu_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\3844432_magnifier_search_zoom_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\7217723_forex_trade_chart_stock_diagram_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\8664938_trash_can_delete_remove_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\8664943_file_pdf_document_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\8665134_broom_clean_cleaning_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\9023622_microsoft_excel_logo_fill_icon.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\packages\Microsoft.Web.WebView2.1.0.4314.35\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\ThePrinz\source\repos\ProyectoGestión\packages\Microsoft.Web.WebView2.1.0.4314.35\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\ThePrinz\source\repos\ProyectoGestión\packages\Microsoft.Web.WebView2.1.0.4314.35\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\My Project\Resources.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmLogin.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmProducto.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmProyecto.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmReporte.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\FrmStock.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\vista\Menu.resx
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\My Project\Application.myapp
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\My Project\Settings.settings
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\App.config
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\packages.config
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\ingeniero.png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\1564506_close_exit_logout_power_icon (1).png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\8201360_add_plus_new_ui_icon (2).png
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\logo_elevadoresMontacarga.jpeg
+C:\Users\ThePrinz\source\repos\ProyectoGestión\ProyectoGestión\imagenes\7030346_login_ui basic_app_sign in_user interface_icon.png

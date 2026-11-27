@@ -5,6 +5,8 @@ Imports iTextSharp.text
 Imports iTextSharp.text.pdf
 Public Class FrmReporte
     Private Sub FrmReporte_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim sw As Stopwatch = Stopwatch.StartNew()
+
         cboFiltro.Items.Add("Todos")
         cboFiltro.Items.Add("EPPs")
         cboFiltro.Items.Add("Herramientas")
@@ -23,6 +25,9 @@ Public Class FrmReporte
         CargarReporte()
         CalcularTotales()
         CargarDashboard()
+
+        sw.Stop()
+        Debug.WriteLine($"[QA-PERF] CP-S07 Carga completa FrmReporte: {sw.ElapsedMilliseconds} ms ({sw.Elapsed.TotalSeconds:F3} s)")
     End Sub
 
     ' ----------------------------
@@ -61,6 +66,7 @@ Public Class FrmReporte
     ' ----------------------------
     ' ----------------------------
     Private Sub btnExcel_Click(sender As Object, e As EventArgs) Handles btnExcel.Click
+        Dim sw As Stopwatch = Stopwatch.StartNew()
         Try
             Dim tabla As DataTable
 
@@ -71,8 +77,13 @@ Public Class FrmReporte
             End If
 
             ExportarAExcel(tabla)
+
+            sw.Stop()
+            Debug.WriteLine($"[QA-PERF] CP-S08 Exportar Excel: {sw.ElapsedMilliseconds} ms ({sw.Elapsed.TotalSeconds:F3} s)")
+
             MessageBox.Show("Reporte Excel generado correctamente.")
         Catch ex As Exception
+            If sw.IsRunning Then sw.Stop()
             MessageBox.Show("Error al generar Excel: " & ex.Message)
         End Try
     End Sub
@@ -82,6 +93,7 @@ Public Class FrmReporte
     ' ----------------------------
     ' ----------------------------
     Private Sub btnPDF_Click(sender As Object, e As EventArgs) Handles btnPDF.Click
+        Dim sw As Stopwatch = Stopwatch.StartNew()
         Try
             Dim tabla As DataTable
 
@@ -92,8 +104,13 @@ Public Class FrmReporte
             End If
 
             ExportarAPDF(tabla)
+
+            sw.Stop()
+            Debug.WriteLine($"[QA-PERF] CP-S08 Exportar PDF: {sw.ElapsedMilliseconds} ms ({sw.Elapsed.TotalSeconds:F3} s)")
+
             MessageBox.Show("Reporte PDF generado correctamente.")
         Catch ex As Exception
+            If sw.IsRunning Then sw.Stop()
             MessageBox.Show("Error al generar PDF: " & ex.Message)
         End Try
     End Sub
@@ -515,12 +532,15 @@ Public Class FrmReporte
             Dim query As String = $"BACKUP DATABASE [{dbName}] TO DISK = N'{backupPath}' WITH FORMAT, INIT, NAME = 'Backup Manual', SKIP, NOREWIND, NOUNLOAD, STATS = 10"
 
             ' ✅ Ejecutar backup
+            Dim sw As Stopwatch = Stopwatch.StartNew()
             Using cn = Conexion.ObtenerConexion()
                 Using cmd As New SqlCommand(query, cn)
                     cmd.CommandTimeout = 0 ' Sin límite de tiempo para backups grandes
                     cmd.ExecuteNonQuery()
                 End Using
             End Using
+            sw.Stop()
+            Debug.WriteLine($"[QA-PERF] CP-S08 Backup BD: {sw.ElapsedMilliseconds} ms ({sw.Elapsed.TotalSeconds:F3} s)")
 
             MessageBox.Show($"✅ Backup generado correctamente en:{Environment.NewLine}{backupPath}", "Backup", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
@@ -569,4 +589,5 @@ Public Class FrmReporte
             dgv.Columns("Valor Neto").DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
         End If
     End Sub
+
 End Class
